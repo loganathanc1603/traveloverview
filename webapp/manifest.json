@@ -74,7 +74,7 @@
                     "action": "overview",
                     "title": "Travel Overview Report",
                     "subTitle": "Over View Page(OVP)",
-                    "icon": ""
+                    "icon": "sap-icon://bbyd-dashboard"
                 }
             }
         }
