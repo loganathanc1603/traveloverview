@@ -62,6 +62,21 @@
         "sourceTemplate": {
             "id": "OVP.smartovptemplate",
             "version": "1.41.1"
+        },
+        "crossNavigation": {
+            "inbounds": {
+                "sap-fe-demo-traveloverview-inbound": {
+                    "signature": {
+                        "parameters": {},
+                        "additionalParameters": "allowed"
+                    },
+                    "semanticObject": "Travel",
+                    "action": "overview",
+                    "title": "Travel Overview Report",
+                    "subTitle": "Over View Page(OVP)",
+                    "icon": ""
+                }
+            }
         }
     },
     "sap.ui": {
@@ -251,5 +266,9 @@
     },
     "sap.ui.generic.app": {
         "settings": {}
+    },
+    "sap.cloud": {
+        "public": true,
+        "service": "sap-fe-demo-traveloverview"
     }
 }
